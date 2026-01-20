@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "골라줘 - 선택 대신 해드립니다",
   description: "점심 메뉴, 저녁 메뉴, A vs B 선택, 룰렛, 사다리타기까지. 생각하기 귀찮을 때 그냥 누르세요.",
   keywords: ["랜덤 선택", "점심 메뉴 추천", "저녁 메뉴 추천", "룰렛", "사다리타기", "A vs B", "결정장애"],
+   verification: {
+    google: "wZ_BcpDz76WaEP6acUfBokG6DooVizkL7-TpOXa6yYw",
+  },
   openGraph: {
     title: "골라줘 - 선택 대신 해드립니다",
     description: "생각하기 귀찮을 때 그냥 누르는 사이트",
