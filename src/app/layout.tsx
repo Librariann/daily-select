@@ -22,6 +22,9 @@ export const metadata: Metadata = {
    verification: {
     google: "wZ_BcpDz76WaEP6acUfBokG6DooVizkL7-TpOXa6yYw",
   },
+  other: {
+    "google-adsense-account": "ca-pub-9234827645030095",
+  },
   openGraph: {
     title: "골라줘 - 선택 대신 해드립니다",
     description: "생각하기 귀찮을 때 그냥 누르는 사이트",
