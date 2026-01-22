@@ -16,10 +16,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "골라줘 - 선택 대신 해드립니다",
-  description: "점심 메뉴, 저녁 메뉴, A vs B 선택, 룰렛, 사다리타기까지. 생각하기 귀찮을 때 그냥 누르세요.",
-  keywords: ["랜덤 선택", "점심 메뉴 추천", "저녁 메뉴 추천", "룰렛", "사다리타기", "A vs B", "결정장애"],
-   verification: {
+  metadataBase: new URL('https://daily-select.com'),
+  title: {
+    default: "골라줘 - 선택 대신 해드립니다",
+    template: "%s | 골라줘"
+  },
+  description: "점심 메뉴, 저녁 메뉴, A vs B 선택, 룰렛, 사다리타기까지. 생각하기 귀찮을 때 그냥 누르세요. 선택 장애 해결사.",
+  keywords: [
+    "랜덤 선택", "점심 메뉴 추천", "저녁 메뉴 추천", "룰렛", "사다리타기", 
+    "A vs B", "결정장애", "선택장애", "메뉴 추천", "랜덤", "골라줘",
+    "Yes or No", "제비뽑기", "팀 나누기", "순서 정하기", "타이머"
+  ],
+  authors: [{ name: "골라줘팀" }],
+  creator: "골라줘",
+  publisher: "골라줘",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
     google: "wZ_BcpDz76WaEP6acUfBokG6DooVizkL7-TpOXa6yYw",
   },
   other: {
@@ -27,9 +49,31 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "골라줘 - 선택 대신 해드립니다",
-    description: "생각하기 귀찮을 때 그냥 누르는 사이트",
+    description: "점심 메뉴, 저녁 메뉴, 룰렛, 사다리타기까지. 생각하기 귀찮을 때 그냥 누르세요.",
     type: "website",
+    locale: "ko_KR",
+    url: "https://daily-select.com",
+    siteName: "골라줘",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "골라줘 - 선택 대신 해드립니다"
+      }
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "골라줘 - 선택 대신 해드립니다",
+    description: "생각하기 귀찮을 때 그냥 누르는 사이트",
+    creator: "@daily_select",
+    images: ["/og-image.jpg"],
+  },
+  alternates: {
+    canonical: "https://daily-select.com",
+  },
+  category: "utility",
 };
 
 export default function RootLayout({

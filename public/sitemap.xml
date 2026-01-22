@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- 홈페이지 - 가장 중요한 페이지 -->
+  <url>
+    <loc>https://chooseforme.space/</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 음식 관련 페이지들 - 인기 기능 -->
+  <url>
+    <loc>https://chooseforme.space/lunch</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/dinner</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 결정 도구들 - 핵심 기능들 -->
+  <url>
+    <loc>https://chooseforme.space/yesno</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/ab</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/number</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/roulette</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/ladder</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/team</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/draw</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/order</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/timer</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://chooseforme.space/todo</loc>
+    <lastmod>2025-01-23T08:19:45+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,29 @@
+# robots.txt for daily-select
+# 선택 장애 해결 도구 모음집
+
+User-agent: *
+Allow: /
+
+# 주요 페이지들
+Allow: /lunch
+Allow: /dinner
+Allow: /yesno
+Allow: /ab
+Allow: /number
+Allow: /roulette
+Allow: /ladder
+Allow: /team
+Allow: /draw
+Allow: /order
+Allow: /timer
+Allow: /todo
+
+# Next.js 빌드 파일들 차단
+Disallow: /_next/
+Disallow: /api/
+
+# 사이트맵 위치
+Sitemap: https://chooseforme.space/sitemap.xml
+
+# 검색봇 크롤 지연 (서버 부하 방지)
+Crawl-delay: 1
