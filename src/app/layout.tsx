@@ -91,10 +91,10 @@ export default function RootLayout({
           <Header />
           <main className="flex-1">
             {children}
-            <Analytics />
           </main>
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
